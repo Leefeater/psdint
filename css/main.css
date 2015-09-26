@@ -1,0 +1,171 @@
+body {
+	margin:0;
+	background:#E1D5A4 url('background.jpg') repeat 100%;
+}
+/*typograhpy*/
+h1, h2, h3, h4, h5, h6, a, p, li, small {
+	text-decoration:none;
+	color:#666;
+	line-height:1.5;
+}
+/*Navigational section*/
+nav {
+	height:75px;
+	width:100%;
+	border-bottom:1px solid #232323;
+}
+.logo {
+	height:60px;
+	width:120px;
+}
+nav ul {
+	float:right;
+	margin-right:4%;
+}
+nav li {
+	margin-top:10px;
+	display:inline-block;
+}
+nav a {
+	color:#600;
+}
+/*HEADER SECTION*/
+header {
+	text-align:center;
+	width:100%;
+	margin-top:25px;
+}
+header h1 {
+	font-size:25px;
+}
+header span {
+	color:#ee0000;
+}
+.mainphoto {
+	height:150px;
+	width:97%;
+}
+/*ABOUT ME section*/
+.about {
+  width:95%;
+  display:inline-block;
+}
+.container {
+	display:inline-block;
+	width:47%;
+	height:125px;
+	margin-left:1.5%;
+}
+.container h2 {
+	text-align:center;
+	color:#bb0000;
+	font-family: 'Indie Flower', cursive;
+}
+.container p {
+	text-align:left;
+}
+.alt {
+	float:right;
+}
+/*Work section*/
+.work {
+	width:90%;
+	margin:25px auto;
+	text-align:center;
+	clear:both;
+}
+.box {
+	margin:5px auto;
+	width:180px;
+	height:180px;
+	border-radius:15px;
+	display:inline-block;
+	background:#fff;
+	text-align:left;
+}
+.box img {
+	margin:0;
+	padding:0;
+	width:180px;
+	height:105px;
+	border-radius:15px 15px 0 0;
+}
+.box h4 {
+	margin:0;
+	color:#bb0000;
+	line-height:.5;
+	font-family:'Indie FLower', cursive;
+}
+
+.work h3 {
+	clear:both;
+	color:#660000;
+	font-family:'Indie Flower', cursive;
+}
+
+
+/*FOOTER*/
+
+footer {
+	background:#222;
+	display:inline-block;
+	width:100%;
+}
+footer h2 {
+	color:#660000;
+	font-family:'Indie Flower', cursive;
+}
+.form {
+	float:left;
+}
+input {
+	background:#888;
+	width:150px;
+	border:none;
+	color:#222;
+	margin:5px 5px;
+}
+textarea {
+	background:#888;
+	width:150px;
+	border:none;
+	color:black;
+	margin:5px 5px;
+}
+::-webkit-input-placeholder {
+	color:#222;
+}
+::-moz-placeholder {
+	color:#222;
+}
+::-ms-input-placeholder {
+	color:#222;
+}
+.social {
+	float:right;
+	position:relative;
+	width:50%;
+	top:50%;
+}
+.social ul {
+	float:right;
+}
+.social li {
+	display:inline;
+	margin:auto 4%;
+	font-size:25px;
+}
+.social i {
+	color:#220000;
+}
+@media (min-width:414px) and (max-width: 700px) {
+	.mainphoto {
+		height:250px;
+	}
+}
+@media (min-width:701px) {
+	.mainphoto {
+		height:450px;
+	}
+
+}
